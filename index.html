@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <title>Home Page</title>
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/datepicker.css" rel="stylesheet">
+    <link href="css/styles.less" rel="stylesheet/less">
+
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    
+    <script src="js/jquery.js"></script> <!-- jQuery 1.10 -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/less.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/bootstrap-datepicker.ru.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+
+  <body>
+  	
+      <div class="wrapper home-wrap">
+      		<div class="container">
+		      	<div class="logo">
+		      		<div></div>
+		      		<p>русский авиасервис</p>
+		      	</div>
+		      	<div class="decoration"></div>
+	      	</div>
+	      	<div class="search-wrap">
+		      	<div class="search">
+		      		<form action="">
+		      			<div class="line">
+		      				<div class="left">
+		      					<label>Откуда</label>
+		      					<input type="text" value="Москва"/>
+		      				</div>
+		      				<div class="left">
+		      					<label>Куда</label>
+		      					<input type="text" value="Майами"/>
+		      				</div>
+		      			</div>
+		      			<div class="line">
+		      				<div class="left">
+		      					<label>Туда</label>
+		      					<input class="datepicker" type="text" value=""/>
+		      				</div>
+		      				<div class="left">
+		      					<label>Обратно</label>
+		      					<input class="datepicker" type="text" value=""/>
+		      				</div>
+		      			</div>
+		      			<div class="line">
+		      				<div class="left checkbox-wrap">
+		      					<label class="checkbox-inline">
+									<input type="checkbox" id="inlineCheckbox1" value="option1"> Только туда
+								</label>
+		      					<!--
+		      					<label>Пассажиры</label>
+		      					<div class="pas-group adult">
+		      						<div></div>
+			      					<select>
+			      						<option>1</option>
+			      						<option>2</option>
+			      						<option>3</option>
+			      					</select>
+		      					</div>
+		      					<div class="pas-group teen">
+		      						<div></div>
+			      					<select>
+			      						<option>-</option>
+			      						<option>1</option>
+			      						<option>2</option>
+			      						<option>3</option>
+			      					</select>
+			      					<span>2-11 лет</span>
+		      					</div>
+		      					<div class="pas-group child">
+		      						<div></div>
+			      					<select>
+			      						<option>-</option>
+			      						<option>1</option>
+			      						<option>2</option>
+			      						<option>3</option>
+			      					</select>
+			      					<span>до 2 лет</span>
+		      					</div>
+		      					-->
+		      				</div>		      				
+		      				<div class="left">
+		      					<input class="button btn-big" type="submit" value="Найти" />
+		      				</div>
+		      			</div>
+		      		</form>
+		      	</div>
+	      	</div><!-- /.search-wrap -->
+	      	<div class="offer-list container">
+	      		<h2>Горячие предложения из Москвы</h2>
+	      		<ul class="clearfix">
+	      			<li>
+	      				<img src="img/london.png" alt=""/>
+	      				<span class="left">Лондон</span>
+	      				<span class="right">15 000 руб</span>
+	      			</li>
+	      			<li>
+	      				<img src="img/london.png" alt=""/>
+	      				<span class="left">Лондон</span>
+	      				<span class="right">15 000 руб</span>
+	      			</li>
+	      			<li>
+	      				<img src="img/london.png" alt=""/>
+	      				<span class="left">Лондон</span>
+	      				<span class="right">15 000 руб</span>
+	      			</li>
+	      			<li>
+	      				<img src="img/london.png" alt=""/>
+	      				<span class="left">Лондон</span>
+	      				<span class="right">15 000 руб</span>
+	      			</li>
+	      			<li>
+	      				<img src="img/london.png" alt=""/>
+	      				<span class="left">Лондон</span>
+	      				<span class="right">15 000 руб</span>
+	      			</li>
+	      			<li>
+	      				<img src="img/london.png" alt=""/>
+	      				<span class="left">Лондон</span>
+	      				<span class="right">15 000 руб</span>
+	      			</li>
+	      		</ul>
+	      	</div>
+      </div><!-- /.home-wrap -->
+      
+      <footer class="container">
+      	<p class="left"><a href="#">Спецпредложения</a><span>|</span><a href="#">Авиакомпании</a><span>|</span><a href="#">Аэропорты</a></p>
+        <p class="right">&copy; 2013 Гуси-Лебеди</p>
+      </footer>
+
+  </body>
+</html>
